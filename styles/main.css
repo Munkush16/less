@@ -1,0 +1,36 @@
+img{
+    position:absolute;
+    height: 200px;
+    width: 200px;
+
+    
+} .wes1{
+    animation:wes1 10s linear infinite; 
+    left:15%;
+}
+@keyframes wes1{
+    0%{
+        transform: rotate(0deg);
+
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.wes2{
+    animation:wes2 10s linear infinite;
+    left: 26%;
+    top: 16%;
+
+}
+@keyframes wes2{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(-360deg);
+    }
+}
+
+
+    
